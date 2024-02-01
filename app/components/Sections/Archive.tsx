@@ -42,7 +42,7 @@ export const Archive = () => {
             {/* 3:2 */}
             <img
               src={hellLightsOutImage}
-              alt="game image"
+              alt="game title"
               className="h-auto w-full rounded-lg"
             />
             <div className="mt-4 text-center">
