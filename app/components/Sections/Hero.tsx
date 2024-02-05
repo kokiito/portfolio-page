@@ -6,6 +6,30 @@ import {
 } from "react-icons/fa";
 import { ZennIcon } from "@/components/Parts/ZennIcon";
 import image from "@/assets/images/kokiitoIcon.jpg";
+import { SVGProps } from "react";
+
+function IconamoonArrowDown3SquareBold(
+  props: SVGProps<SVGSVGElement>
+) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="1em"
+      height="1em"
+      viewBox="0 0 24 24"
+      {...props}
+    >
+      <path
+        fill="none"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2.5"
+        d="M4 4h16v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm5 8l3 3m0 0l3-3m-3 3V9"
+      ></path>
+    </svg>
+  );
+}
 
 export const Hero = () => {
   return (
@@ -83,6 +107,7 @@ export const Hero = () => {
             </div>
           </div>
         </div>
+        <IconamoonArrowDown3SquareBold className="absolute bottom-[30px] text-[30px]" />
       </div>
     </div>
   );
