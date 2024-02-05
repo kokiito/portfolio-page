@@ -1,5 +1,6 @@
 import hellLightsOutImage from "@/assets/images/hellLightsOut.jpg";
 import nemachizuki from "@/assets/images/nemachizuki.jpg";
+import rebootYourBrainImage from "@/assets/images/rebootYourBrain.jpg";
 
 export const Archive = () => {
   return (
@@ -21,7 +22,7 @@ export const Archive = () => {
             <img
               src={nemachizuki}
               alt="寝待ち月のショーのイメージ画像"
-              className="h-auto w-full rounded-lg"
+              className="h-[240px] w-[360px] rounded-lg object-cover"
             />
             <div className="mt-4 text-center">
               <p>寝待ち月のショー</p>
@@ -43,10 +44,27 @@ export const Archive = () => {
             <img
               src={hellLightsOutImage}
               alt="game title"
-              className="h-auto w-full rounded-lg"
+              className="h-[240px] w-[360px] rounded-lg object-cover"
             />
             <div className="mt-4 text-center">
               <p>Hell Lights Out</p>
+            </div>
+          </a>
+        </div>
+        <div className="max-w-xl">
+          <a
+            href="https://debris-works.itch.io/reboot-your-brain"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {/* 3:2 */}
+            <img
+              src={rebootYourBrainImage}
+              alt="game title"
+              className="h-[240px] w-[360px] rounded-lg object-cover"
+            />
+            <div className="mt-4 text-center">
+              <p>Reboot Your Brain</p>
             </div>
           </a>
         </div>
