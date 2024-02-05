@@ -12,7 +12,7 @@ export const Archive = () => {
       {/* Web Section */}
       <h2 className="mt-6 text-xl md:text-2xl">Web</h2>
       <div className="mt-4 grid grid-cols-1 gap-10 md:grid-cols-2">
-        <div className="max-w-xl">
+        <div className="flex max-w-xl justify-center">
           <a
             href="http://nemachizukinoshow.com/2018/"
             target="_blank"
@@ -34,7 +34,7 @@ export const Archive = () => {
       {/* Game Section */}
       <h2 className="mt-6 text-xl md:text-2xl">Game</h2>
       <div className="mt-4 grid grid-cols-1 gap-10 md:grid-cols-2">
-        <div className="max-w-xl">
+        <div className="flex max-w-xl justify-center">
           <a
             href="https://unityroom.com/games/hell_lights_out"
             target="_blank"
@@ -51,7 +51,7 @@ export const Archive = () => {
             </div>
           </a>
         </div>
-        <div className="max-w-xl">
+        <div className="flex max-w-xl justify-center">
           <a
             href="https://debris-works.itch.io/reboot-your-brain"
             target="_blank"
