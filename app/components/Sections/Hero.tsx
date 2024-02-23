@@ -97,7 +97,9 @@ export const Hero = () => {
                 <FaYoutube size={"20px"} />
               </a>
               <a
-                href={"https://www.instagram.com/koit13/"}
+                href={
+                  "https://www.instagram.com/kokiito_29/"
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"

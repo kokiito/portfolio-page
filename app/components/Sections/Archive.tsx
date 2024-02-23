@@ -36,7 +36,7 @@ export const Archive = () => {
       <div className="mt-4 grid grid-cols-1 gap-10 md:grid-cols-2">
         <div className="flex max-w-xl justify-center">
           <a
-            href="https://unityroom.com/games/hell_lights_out"
+            href="https://unityroom.com/games/hell_lights_out?beta=true"
             target="_blank"
             rel="noopener noreferrer"
           >
